@@ -1,11 +1,17 @@
 # jd
 有些库更新了,做个保存,做个搬运工
-可能是最全的一个库
+### 下面可能是最全的一个库
 修改青龙 config.sh 文件中的GithubProxyUrl参数为： https://pd.zwc365.com/ 或 https://pd.zwc365.com/cfworker/
 
 然后拉库命令填写下方代码：
 ```
+国外
 ql repo https://github.com/KingRan/JDJB.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|USER|utils|function|sign|sendNotify|ql|JDJR"
+```
+或者
+```
+国内
+ql repo https://github.com.cnpmjs.org/KingRan/JDJB.git "jd_|jx_|jdCookie" "activity|backUp" "^jd[^_]|USER|utils|function|sign|sendNotify|ql|JDJR"
 ```
 同时：
 ```
@@ -46,6 +52,7 @@ Cannot find module './xxxx'
 "apk add --no-cache build-base g++ cairo-dev pango-dev giflib-dev && cd scripts && npm install canvas png-js md5 date-fns axios crypto-js tslib ts-md5 @types/node --build-from-source"
 ```
 
+### 然后就是其余地方搜索的还能用的
 首先是shufflewzc库
 【青龙拉库命令】 
 ```
