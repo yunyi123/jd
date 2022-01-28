@@ -1,5 +1,5 @@
 # jd
-有些库更新了，做个保存
+有些库更新了,做个保存,做个搬运工
 可能是最全的一个库
 修改青龙 config.sh 文件中的GithubProxyUrl参数为： https://pd.zwc365.com/ 或 https://pd.zwc365.com/cfworker/
 
